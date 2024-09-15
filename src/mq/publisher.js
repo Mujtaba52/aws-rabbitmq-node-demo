@@ -19,13 +19,3 @@ async function publishToQueue(queue, payload) {
 }
 
 export { publishToQueue };
-
-
-/*
-        const message = {
-            action,
-            document_id: documentId
-        };
-
-        also remember to JSON.stringify when passing into Buffer.from()
-*/
